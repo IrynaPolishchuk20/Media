@@ -12,6 +12,10 @@
     src: url(../fonts/ProximaNova-Semibold.woff);
 }
 
+/* @import './blocks/block_1.css'; */
+/* @import './blocks/block_2.css'; */
+
+
 .container-fluid{
     box-sizing: border-box;
     width: 100%;
@@ -78,7 +82,7 @@
     width: 225px;
 }
 
-.container .text-hd .text1-hd{
+.container .text .text1{
     font-size: 60px;
     letter-spacing: 36px;
     line-height: 70px;
@@ -87,7 +91,7 @@
     font-family: "Nova";
 }
 
-.container .text-hd .text2-hd{
+.container .text .text2{
     font-size: 60px;
     letter-spacing: 36px;
     line-height: 70px;
@@ -96,7 +100,7 @@
     font-family: "Nova";
 }
 
-.container .text-hd{
+.container .text{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,4 +111,106 @@
    justify-content:flex-end;
    align-content: center;
 
+}
+
+.block_1{
+    height: 1580px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-gap: 10px;
+}
+
+.block_1 .item{
+    text-transform: uppercase;
+}
+
+.block_1 .item img{
+    clear: both;
+}
+
+.block_1 .item p{
+    font-size: 40px;
+    letter-spacing: 16px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Nova";
+    text-align: left;
+}
+
+.block_1 .item1{
+    background-image: url(../img/Layer\ 22.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    grid-column: 1/3;
+    grid-row: 1/4;
+    height: 720px;
+    width: 800px;
+}
+
+ .block_1 .item2{
+    background-image: url(../img/Layer\ 21.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    grid-column: 3/3;
+    grid-row: 1/2;
+    height: 355px;
+    width: 400px;
+}
+
+.block_1 .item3{
+    background-image: url(../img/Layer\ 25.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    grid-column: 3/3;
+    grid-row: 2/3;
+    height: 355px;
+    width: 400px;
+}
+
+.block_1 .item4{
+    background-image: url(../img/Layer\ 31.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 3/3;
+    height: 450px;
+    width: 350px;
+}
+
+.block_1 .item5{
+    background-image: url(../img/Layer\ 29.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    width: 350px;
+    grid-column: 2/3;
+    grid-row: 3/3;
+}
+
+.block_1 .item6{
+    background-image: url(../img/Layer\ 27.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 450px;
+    width: 350px;
+    grid-column: 3/3;
+    grid-row: 3/3;
+}
+
+
+.block_2  .footerImg{
+    background-image: url(../img/Layers.jpg);
+    position: relative;
+    width: 100%;
+    height: 895px;
+    background-size: cover;
+    background-position: center;
 }

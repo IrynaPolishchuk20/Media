@@ -25,6 +25,7 @@
     width: 1200px;
     box-sizing: border-box;
     position: relative; 
+    padding: 0 10px;
 }
 
 .headerImg{
@@ -98,20 +99,22 @@
 }
 
 .container .text{
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .container .arrow{
-   display: flex;
-   justify-content:flex-end;
-   align-content: center;
+    padding: 100px;
+    display: flex;
+    justify-content:center;
+    align-content: end;
 
 }
 
 .block_1{
-    height: 1580px;
+    height: 1100px;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
@@ -143,8 +146,8 @@
     position: relative;
     grid-column: 1/3;
     grid-row: 1/4;
-    height: 700px;
-    width: 800px;
+    height: 615px;
+    width: 750px;
 }
 
  .block_1 .item2{
@@ -203,7 +206,7 @@
 }
 
 
-.block_2  .footerImg{
+.block_2  .block_2Img{
     background-image: url(../img/Layers.jpg);
     position: relative;
     width: 100%;
@@ -248,4 +251,15 @@
 
 .footer nav a:hover{
     color: red;
+}
+.footer .menu{
+    position: absolute;
+    right: 10px;
+}
+
+.footer .footerImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }

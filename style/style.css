@@ -326,8 +326,6 @@
     width: 100%;
 }
 
-
-
 .block_2 .text-b2{
     margin: 0 auto;
     width: 100%;
@@ -373,11 +371,11 @@
 }
 .footer .menu{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
 }
 
-.footer .footerImg{
+.footer .menuImg{
     padding: 5px;
     display: flex;
     justify-content: flex-end;
@@ -569,12 +567,6 @@
         text-align: center;
        
     }
-
-    
-
-   
-    
-        
 
 
 }
